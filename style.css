@@ -49,3 +49,20 @@
     font-family: norseBold;
     src: url(Norse-Bold\ \(1\).otf) format("opentype");
   }
+
+  .backgroundImg{
+   width: 100vw;
+   height:100vh;
+  }
+
+  .parentContainer{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .infoContainer{
+    background-color: rgba(86, 85, 85, 0.393);
+    display:flex;
+    flex-direction: column;
+    
+  }
