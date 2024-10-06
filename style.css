@@ -51,7 +51,7 @@
   }
 
   .backgroundImg{
-   width: 100vw;
+   width: 101.3vw;
    height:auto;
    position: relative;
   }
@@ -86,9 +86,17 @@
     flex-direction: row;
   }
 
-  .infoContainer{
-    background-color: rgba(86, 85, 85, 0.393);
+/* applied styling to the images,logo and shoutout above*/
+
+.infoContainer{
     display:flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
   }
+
+.infoContainer > .headerDiv > h3 {
+    padding:20px;
+    height:40vh;
+    align-content: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:rgba(220, 220, 220, 0.192);
+}  
