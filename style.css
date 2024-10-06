@@ -104,6 +104,7 @@
 /* the above styling belongs to the header passage div */
 
 .formDiv{
+    margin-bottom: 10px;
     padding: 20px 38px 20px 38px;
     display: flex;
     flex-direction: column;
@@ -148,4 +149,16 @@ label{
     font-size: 10px;
     font-weight: 550;
     color: rgba(0, 0, 0, 0.726);
+}
+
+.createButton{
+    align-content: center;
+    margin-top:13px;
+    margin-left:40px;
+    text-decoration: none;
+    background-color: #596D48;
+    color: white;
+    padding: 6px 36px;
+    border-radius: 5px;
+    border: 1px solid #596D48;
 }
