@@ -94,9 +94,44 @@
   }
 
 .infoContainer > .headerDiv > h3 {
-    padding:20px;
+    padding:35px;
     height:40vh;
     align-content: center;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color:rgba(220, 220, 220, 0.192);
 }  
+
+/* the above styling belongs to the header passage div */
+
+.formDiv{
+    padding: 20px 38px 20px 38px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formDiv > h3 {
+    margin-bottom: 10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.formDiv > form {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.formDiv > form > div {
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+label,input {
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 13px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:lighter;
+}
