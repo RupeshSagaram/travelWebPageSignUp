@@ -174,8 +174,16 @@ input:invalid{
     border:1px solid rgba(178, 0, 0, 0.781);
 }
 
-input:valid{
+input:required:invalid{
     border:1px solid rgba(0, 0, 0, 0.29);
+}
+
+input:required:placeholder-shown {
+    border: 1px solid rgba(0, 0, 0, 0.29); /* Default border for empty required inputs */
+}
+
+input:invalid:not(:placeholder-shown){
+    border:1px solid rgba(178, 0, 0, 0.781);
 }
 
 input:focus-visible{
