@@ -39,37 +39,36 @@
                 <form id="myForm" action="" method="post">
 
                     <div>
-                        <label for="firstName">FIRST NAME</label>
-                        <input type="text" id="firstName">
+                        <label for="firstName">*FIRST NAME</label>
+                        <input type="text" id="firstName" required>
                     </div>
                     <div>
                         <label for="lastName">LAST NAME</label>
                         <input type="text" id="lastName">
                     </div>
                     <div>
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email">
+                        <label for="email">*EMAIL</label>
+                        <input type="email" id="email" required>
                     </div>
                     <div>
                         <label for="phoneNumber">PHONE NUMBER</label>
                         <input type="tel" id="phoneNumber">
                     </div>
                     <div>
-                        <label for="password">PASSWORD</label>
-                        <input type="password" id="password">
+                        <label for="password">*PASSWORD</label>
+                        <input type="password" id="password" required >
                     </div>
                     <div>
                         <label for="confirmPassword">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirmPassword" />
+                        <input type="password" id="confirmPassword" required/>
                     </div>
                 </form>
             </div>
             <div>
                 <button type="submit" form="myForm" class="createButton">Create Account</button>
             </div>
-            <div>
-                <p>Already have an account?</p>
-                <button>Log in</button>
+            <div class="loginDiv">
+                <p>Already have an account? <a>Log in</a></p>
             </div>
 
         </div>
