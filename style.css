@@ -71,6 +71,8 @@
    width: 101.3vw;
    height:auto;
    position: relative;
+   display: flex;
+   flex-shrink: 1;
   }
 
   .shoutout{
@@ -167,6 +169,21 @@ input{
     border:1px solid rgba(0, 0, 0, 0.29);
     border-radius: 5px;
 }
+
+input:invalid{
+    border:1px solid rgba(178, 0, 0, 0.781);
+}
+
+input:valid{
+    border:1px solid rgba(0, 0, 0, 0.29);
+}
+
+input:focus-visible{
+    outline: 2px solid rgba(46, 57, 185, 0.751);
+    border: 1px solid rgba(46, 57, 185, 0.751);
+}
+
+
 label{
     font-size: 10px;
     font-weight: 550;
